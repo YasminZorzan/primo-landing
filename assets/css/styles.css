@@ -1,0 +1,870 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-family: 'Montserrat', sans-serif !important;
+  scroll-behavior: smooth;
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif !important;
+  line-height: 1.5;
+  background: #001E1F;
+}
+
+.box1 {
+  width: 100%;
+  height: auto;
+  background: #011913;
+}
+
+.box1 .container {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.text-color {
+  color: #00E1BE !important;
+}
+
+.containerText {
+  width: 50%;
+  color: #fff;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+.containerText h1{
+  font-size: 100px;
+  font-weight: bold;
+  line-height: 85px
+}
+
+.descrition {
+  text-align: left !important;
+  width: 300px !important;
+}
+
+.descrition span {
+  font-size: 20px;
+}
+
+.containerImage {
+  width: 50%;
+  z-index: 9999;
+}
+
+.btn-success {
+  background: #00E1BE !important;
+  margin-top: 40px;
+  width: 362.99px !important;
+  height: 55.87px !important;
+  color: #090C0B !important;
+  display: flex !important;
+  align-items: center !important;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.range {
+  width: 100%;
+  height: 78px;
+  background: #00E1BE;
+  position: absolute;
+  top: 145px;
+  padding-left: 27%;
+}
+
+.range h2 {
+  font-size: 60px;
+  color: #fff;
+}
+
+.box1-m, .box6-m, .box9-m {
+  display: none;
+}
+
+.box2 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
+
+.box2 h5 {
+  color: #fff;
+}
+
+.box2 .min-card {
+  height: 73.93000030517578px;
+  width: 288px;
+  background: #00E1BE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.min-card span {
+  color: #001E1F;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.col-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rounded {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.lst {
+  position: relative; 
+  left: -85px;
+}
+
+.list li {
+  color:#fff;
+  font-size: 20px;
+  font-weight: 500;
+  list-style: disc;
+  padding-top: 25px;
+  width: 150%;
+}
+
+.list li::marker {
+  color: #00E1BE;
+}
+
+.box3 {
+  width: 100%;
+  height: 206px;
+  background: #036060;
+  text-align: center;
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.box3 span {
+  color:#fff;
+  font-size: 20px;
+  font-weight: 500 !important;
+}
+
+.box4 {
+  width: 100%;
+  padding-top: 30px;
+  text-align: center;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box4 span {
+  color:#fff;
+  font-size: 20px;
+  font-weight: 500 !important;
+}
+
+.box5 {
+  width: 100%;
+  padding-top: 150px;
+  display: flex;
+  flex-direction: row;
+}
+
+.box5 .boxL {
+  width: 50%;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.box5 .boxL div {
+  width: auto;
+}
+
+.box5 .boxL div div {
+  width: auto;
+  height: 58px;
+  background: #00E1BE;
+  color: #001E1F;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.box5 .boxL div div span {
+  color: #001E1F;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.box5 .boxL div span {
+  color: #001E1F;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.box5 .boxR {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.boxL {
+  justify-content: flex-end;
+}
+
+.boxR {
+  padding-left: 50px;
+}
+
+.boxTextValuePerTop {
+  padding-top: 77px;
+}
+
+.boxR .boxRTxt1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+}
+.boxR .boxRTxt2 {
+  color: #fff;
+  font-size: 100px;
+  font-weight: bold;
+  line-height: 90px;
+}
+
+.btn-position-top {
+  position: relative; 
+  top: -64px;
+}
+
+.box6 {
+  width: 100%;
+  padding: 150px;
+  display: flex;
+  flex-direction: row;
+}
+
+.box6Line {
+  width: 20%;
+  padding: 40px;
+}
+
+.box6Line span {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.box6LineBorder {
+  border-left-width: 2px;
+  border-left-color: #00E1BE;
+  border-left-style: solid;
+  padding-left: 20px !important;
+}
+
+.box7 {
+  width: 100%;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.box7 h1 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.imgs {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.box8 {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #E0E0E0;
+  flex-direction: column;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  text-align: center;
+}
+
+.box8 h1{
+  font-size: 70px;
+  font-weight: bold;
+  color: #001E1F;
+}
+
+.box9 {
+  background: url('../images/fundo2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.box9-m {
+  background: url('../images/fundo2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  flex-direction: column;
+}
+
+.box {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  text-align: left;
+}
+
+.box9Title {
+  color: #fff;
+  font-size: 80px;
+  font-weight: bold; 
+}
+
+.box9BoxTitle {
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.box9BoxDescription {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500; 
+  line-height: 30px;
+}
+
+.box9LineBorder {
+  border-left-width: 2px;
+  border-left-color: #00E1BE;
+  border-left-style: solid;
+}
+
+.box9BotomBorder {
+  border-bottom-width: 2px;
+  border-bottom-color: #00E1BE;
+  border-bottom-style: solid;
+  padding-bottom: 20px;
+}
+
+.box9Top {
+  padding-top: 20px;
+}
+
+.box10 {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 130px;
+  background: #E0E0E0;
+}
+
+.box10 .container {
+  flex-direction: column;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  text-align: center;
+}
+
+.box10Title {
+  width: auto;
+  height: auto;
+  border-bottom-width: 2px;
+  border-bottom-color: #001E1F;
+  border-bottom-style: solid;
+}
+
+.box10Title h1 {
+  font-weight: 600;
+  font-size: 60px;
+  color: #001E1F;
+  padding-bottom: 20px;
+}
+
+.box10 .box10Span1 {
+  padding-top: 40px;
+  font-weight: 600;
+  font-size: 27px;
+  color: #001E1F;
+}
+.box10 .box10Span2 {
+  font-weight: 500;
+  font-size: 25px;
+  color: #001E1F;
+  padding-bottom: 30px;
+}
+
+.box10 .box10TextValuein {
+  font-weight: 500;
+  font-size: 50px;
+  color: #001E1F;
+}
+
+.box10 .box10Valuein {
+  font-weight: 500;
+  font-size: 40px;
+  color: #7A7A7A;
+  text-decoration: line-through;
+  text-decoration-color: #001E1F;
+}
+
+.box10 .boxTextValuePer {
+  font-weight: bold;
+  font-size: 50px;
+  color: #001E1F;
+}
+
+.box10 .boxValuePer   {
+  font-weight: bold;
+  font-size: 120px;
+  color: #001E1F;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.box10 .box10Row {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin-left: 156px;
+}
+
+.box11 {
+  width: 100%;
+  margin-bottom: 180px;
+}
+
+.box11 .container {
+  flex-direction: column;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  text-align: center;
+}
+
+.box11 .box11Title {
+  color: #00E1BE;
+  font-weight: bold;
+  font-size: 40px;
+}
+.box11 .box11Text span {
+  color: #fff;
+  font-weight: 500;
+  font-size: 27px;
+}
+
+.box12 {
+  width: 100%;
+  padding-bottom: 100px;
+  background: #E0E0E0;
+}
+
+.box12 {
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  text-align: center;
+}
+
+.box12 .box12Text1 {
+  color: #00E1BE;
+  font-weight: bold;
+  font-size: 80px;
+  text-align: end;
+}
+.box12 .box12Text2 {
+  color: #1A1A1A;
+  font-weight: bold;
+  font-size: 28px;
+  align-items: center;
+  display: flex;
+  text-align: start;
+}
+
+.box12 .box12Text3 {
+  color: #000;
+  font-weight: 600;
+  font-size: 27px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.box12 .box12Text4 {
+  color: #474747;
+  font-weight: 600;
+  font-size: 22px;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 1440px){
+  .range {
+    padding-left: 10%;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .img {
+    width: 500px;
+  }
+  
+  .range {
+    top: 89px;
+  }
+
+  .logo {
+    width: 250px;
+  }
+
+  .containerText {
+    height: 100%;
+    position: relative;
+    bottom: 0;
+    left: 83px;
+    top: 197px;
+  }
+
+  .list {
+    position: relative;
+    left: -129px;
+  }
+
+  .box6 {
+    padding: 0;
+  }
+
+  .box8 h1 {
+    font-size: 65px;
+  }
+
+  .box12 .box12Text1 {
+    font-size: 70px;
+  }
+
+  .box12 .box12Text2 {
+    font-size: 23px;
+  }
+}
+@media screen and (max-width: 1024px){
+  .range {
+    top: 63px;
+  }
+
+  .img {
+    width: 384px;
+  }
+
+  .containerText {
+    left: 28px;
+    top: 149px;
+  }
+
+  .logo {
+    width: 200px;
+    padding-bottom: 10px;
+  }
+
+  .btn-success {
+    margin-top: 14px;
+    width: 298.99px !important;
+  }
+
+  .box6Line span {
+    color: #fff;
+    font-size: 12px;
+  }
+
+  .box8 h1 {
+    font-size: 50px;
+  }
+
+  .box10 .box10Row {
+    margin-left: 0;
+  }
+
+  .box10 .boxValuePer {
+    font-size: 80px;
+  }
+
+  .box10 .boxTextValuePer {
+    font-size: 28px;
+  }
+
+  .boxTextValuePerTop {
+    padding-top: 58px;
+  }
+
+  .btn-position-top {
+    top: -44px;
+  }
+
+  .box12 .box12Text1 {
+    font-size: 50px;
+  }
+
+  .box12 .box12Text2 {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .range h2 {
+    font-size: 33px;
+    color: #fff;
+  }
+
+  .range {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+  }
+
+  .logo {
+    width: 140px;
+  }
+  .container-m {
+    z-index: 999999;
+    height: 100%;
+  }
+
+  .img {
+    width: 300px;
+  }
+
+  .box1-m, .box6-m, .box9-m {
+    display: flex;
+  }
+
+  .box1, .box6, .box9 {
+    display: none;
+  }
+
+  .logo-m {
+    position: relative;
+    right: -105px;
+  }
+
+  .containerText {
+    top: 0;
+  }
+
+  .list {
+    left: -29px;
+  }
+
+  .list li {
+    font-size: 15px;  
+    width: 100%;
+  }
+
+  .box4 span {
+    font-size: 15px;
+    width: 60% !important;
+  }
+
+  .boxR .boxRTxt1 {
+    font-size: 25px;
+  }
+
+  .box6Line {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+
+  .box7 h1 {
+    font-size: 3rem;
+  }
+
+  .box9Title {
+    font-size: 48px;
+  }
+  .box9BoxTitle {
+    font-size: 20px;
+  }
+
+  .box10 .boxTextValuePer {
+    font-size: 15px;
+  }
+
+  .box10 .boxValuePer {
+    font-size: 65px;
+  }
+
+  .box10 .box10TextValuein {
+    font-size: 37px;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .img {
+    width: 255px;
+  }
+
+  .box5 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box5 .boxL {
+    width: 100%;
+    align-items: center;
+  }
+
+  .box5 .boxR {
+    width: 100%;
+  }
+
+  .box7 h1 {
+    font-size: 2.7rem;
+  }
+
+  .box8 h1 {
+    font-size: 46px;
+  }
+
+  .box9Title {
+    font-size: 40px;
+  }
+
+  .box10Title h1 {
+    font-size: 55px;
+  }
+
+  .box10 .boxValuePer {
+    font-size: 54px;
+  }
+
+  .boxTextValuePerTop {
+    padding-top: 42px;
+  }
+
+  .box12 .box12Text1 {
+    font-size: 46px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .range h2 {
+    font-size: 25px;
+  }
+  
+  .img {
+    width: 195px;
+  }
+
+  .containerText {
+    left: 0;
+  }
+
+  .box3 span {
+    font-size: 17px;
+  }
+
+  .box7 h1 {
+    font-size: 2.3rem;
+  }
+
+  .box8 h1 {
+    font-size: 40px;
+  }
+
+  .box9-m .box9BoxTitle {
+    font-size: 14px;
+  }
+
+  .box9-m .box9BoxDescription {
+    font-size: 14px;
+  }
+  
+  .box9Title {
+    font-size: 35px;
+  }
+
+  .box9-m {
+    text-align: center;
+  }
+
+  .box10Title h1 {
+    font-size: 45px;
+  }
+
+  .box10 .box10TextValuein, .box10 .box10Valuein {
+    font-size: 28px;
+  }
+
+  .box10 .boxValuePer {
+    font-size: 47px;
+  }
+
+  .box10 .boxTextValuePer {
+    font-size: 10px;
+  }
+
+  .box12 .box12Text1 {
+    font-size: 34px;
+    text-align: center;
+  }
+
+  .box12 .box12Text3 {
+    font-size: 18px;
+  }
+}
